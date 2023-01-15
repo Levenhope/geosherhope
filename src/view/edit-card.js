@@ -1,6 +1,6 @@
 import SmartView from "./smart.js";
 import {BLANK_CARD, COLORS} from "../const.js";
-import {shortTaskDueDate} from "../utils/task";
+import {shortTaskDueDate} from "../utils/card.js";
 
 export default class EditCardView extends SmartView {
   constructor(card = BLANK_CARD) {

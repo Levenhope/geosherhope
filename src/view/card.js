@@ -1,5 +1,5 @@
 import AbstractView from "./abstract.js";
-import {shortTaskDueDate} from "../utils/task.js";
+import {shortTaskDueDate} from "../utils/card.js";
 
 export default class CardView extends AbstractView {
   constructor(card) {
